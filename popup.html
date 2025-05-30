@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Tracker</title>
+  <style>
+    body { font-family: Arial; padding: 10px; width: 200px; }
+    input, button { margin: 5px 0; width: 80%; padding: 6px; }
+    h3 { margin-top: 20px; }
+  </style>
+</head>
+<body>
+    <h1>Expenses</h1>
+    <input id="desc" placeholder="Description">
+    <input id="amount" type="number" placeholder="Amount (PLN)">
+    <button id="add">Add</button>
+    <h3>Total: <span id="total">0.00</span> PLN</h3>
+    <button id="allData">All Data</button>
+    <div class="listHolder">
+      <ul class="list">
+        <!-- <li>
+          <span class="listname"> </span>
+        </li> -->
+      </ul>
+    </div>
+  <script src="popup.js"></script>
+</body>
+</html>
